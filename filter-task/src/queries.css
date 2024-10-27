@@ -1,0 +1,236 @@
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .round-header{
+    font-size: 20px;
+  }
+  
+  .trash-Hauling{
+    margin-left: 30px;
+    color: rgb(109, 123, 214); 
+    letter-spacing: 2px;
+    font-size: 14px;  
+  }
+  
+  
+  .Experts-btn{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 10px 30px;
+    
+  }
+  
+  .two-button{
+    padding: 10px 40px;
+  }
+  
+  .where-button{
+    padding: 10px 40px;
+    
+  }
+  
+  .lorem{
+    font-size: 25px;
+    color: #4F4F4F;
+    font-weight: bolder;
+  }
+  
+  .lorem h2{
+    font-weight: lighter;
+  }
+  
+  
+  .where-padding-margin p{
+    padding: 10px 0px 0 60px;
+    font-size: 10px;
+  }
+
+  .about-us{
+    font-size: 10px;
+  }
+
+  .about-us h1{
+    margin: 0;
+  }
+  
+
+}
+
+/**************************/
+/* BELOW 900px  */
+/**************************/
+@media (max-width: 56.25em) {
+  .about-us img{
+    width: 200px;
+    height: 150px;
+  }
+  .info{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .grid-template-3{
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .grid-template-2{
+    grid-template-columns: 1fr;
+  }
+  
+  .three-times-header{
+    font-size: 2rem;
+  }
+  
+  .round-header{
+    font-size: 16px;
+  }
+  
+  .trash-Hauling{
+    margin-left: 10px;
+    color: rgb(109, 123, 214); 
+    letter-spacing: 1px;
+    font-size: 14px;  
+  }
+  
+  .Experts-btn{
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px 30px;
+    
+  }
+  
+  .two-button{
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  
+  .lorem{
+    font-size: 14px;
+  }
+  
+  .paragraph{
+    padding: 10px 5rem;
+    font-size: 9px;
+  }
+  
+  .about-us-where{
+    width: 70%;
+  }
+  
+  .where-padding-margin h1{
+    margin: 0;
+  }
+  
+  .where{
+    border-top-left-radius: 30%;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .where-button{
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  .Services .trash{
+    margin-left: 9rem;
+    width: 20rem;
+  }
+  
+  .reviews{
+    height: 8rem;
+  }
+  
+  .img-header h3{
+    font-size: 18px;
+  }
+  
+  .img-header blockquote{
+    font-size: 14 px;
+  }
+  
+}
+
+
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .two-button{
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+  .Experts-btn{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 8px 10px;
+  }
+
+  .lorem{
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .paragraph{
+    margin-bottom: 0;
+    padding: 10px 5rem;
+    font-size: 8px;
+  }
+  .where-button{
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+  
+  .Services .trash{
+    margin: auto;
+    
+  }
+
+  .reviews{
+    width: 25rem;
+  }
+  .img-header blockquote{
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 20px;
+  }
+}
+
+/**************************/
+/* BELOW 580px (Phones) */
+/**************************/
+
+@media (max-width: 36em) {
+  .round-header{
+    font-size: 14px;
+  }
+  
+  .trash-Hauling{
+    font-size: 12px;  
+  }
+  .paragraph{
+    padding: 5px;
+    color: rgb(205, 64, 29);
+    font-size: 9px;
+  }
+
+  .lorem{
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .two-button{
+    font-size: 9px;
+  }
+  .form input{
+    padding: 10px 5px;
+    
+  }
+}

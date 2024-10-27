@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:wght@100..900&family=Matemasie&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(228, 227, 227);
+}
+
+.three-times-header{
+  color: rgb(96, 96, 250);
+  margin: 0;
+  font-weight: bolder;
+  font-size: 4rem;
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+}
+
+.two-button{
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 1rem  4rem;
+  border-radius: 25px;
+  border: 0px;
+  background-color: rgb(19, 19, 219);
+}
+
+.two-button:hover{
+  background-color:rgb(33, 33, 152);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.grid-template-column-1{
+  display: grid;
+  grid-template-columns: 0.5fr;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.grid-template-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+} 
+
+.grid-template-3{
+  display: grid;
+  column-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+/******************************************/
+/******************************************/
+/******************************************/
+/* ROUND ROCK SECTION */
+
+
+.round-rock{
+  background-color: rgb(235, 235, 235);
+  max-width: 120rem;
+  max-height: 120rem;
+  margin: 2rem 5rem 2rem 5rem;
+  margin-top: 50px;
+  width: 80%;
+  position: relative;
+}
+
+.garbage-landing-page img{
+  background-image: url('./figma-1.jpg');
+  width: 80%;
+  border-bottom-right-radius: 40%;
+  clip-path: polygon(0% 0%, 90% 0%, 60% 100%, 0% 100%);
+  background-size: cover; 
+  background-position: center;
+}
+
+.header-margin{
+ margin: 0;
+}
+
+.round-header{
+  color: rgb(109, 123, 214); 
+  font-size: 30px;
+}
+
+.trash-Hauling{
+  margin-left: 30px;
+  color: rgb(109, 123, 214); 
+  letter-spacing: 5px;
+  font-size: 18px;  
+}
+
+
+.Experts-btn{
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #6D91EE;
+}
+
+.Experts-btn:hover{
+  background-color:#386ae7;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.lorem{
+  font-size: 35px;
+  color: #4F4F4F;
+  font-weight: bolder;
+}
+
+.lorem h2{
+  font-weight: lighter;
+}
+
+
+.header-content {
+  position: absolute;
+  top: 50%; 
+  left: 10%;
+  right: 0; 
+  transform: translateY(-50%); 
+  padding: 10px; 
+  text-align: center; 
+  z-index: 1; 
+}
+
+.paragraph{
+  text-align: center;
+  
+  padding: 10px 14rem;
+}
+
+
+
+/******************************************/
+/******************************************/
+/******************************************/
+/* ABOUT US AND WHERE */
+
+
+.about-us-where{
+  background-image: url('./three-trash-bag.jpg');
+  background-size: cover; 
+  background-position: center;
+  max-width: 120rem;
+  margin: 8rem;
+  margin-bottom: 40px;
+  width: 80%;
+  position: relative;
+}
+
+
+.grid-about-us-where{
+  grid-template-columns: 1fr 1fr; 
+  row-gap: 0;
+  column-gap: 0;
+  width: 100%;
+  background-color: rgb(97, 142, 255, 0.7);
+}
+
+.font-size-color{
+  color: white;
+  text-align: center; 
+}
+
+
+.font-size-color h1{
+  font-size: 30px;
+}
+
+.about-us{
+  padding: 10px 70px;
+}
+
+.about-us img{
+width: 240px;
+height: 180px;
+border-radius: 25px;
+}
+
+.where{
+  background-color: #6D91EE ;
+  border-top-left-radius: 20%;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.where-button{
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 1rem  4rem;
+  border-radius: 25px;
+  border: 0px;
+  background-color: rgb(238, 192, 75);
+}
+
+.where-button:hover{
+  background-color:rgb(33, 33, 152);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.where-padding-margin{
+  margin-top: 7rem;
+}
+
+.where-padding-margin p{
+  padding: 20px 0px 0 60px;
+}
+/******************************************/
+/******************************************/
+/******************************************/
+/* SERVICES SECTION */
+
+.Services{
+  max-width: 120rem;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 80%;
+  padding: 30px;
+  position: relative;
+}
+
+.Services .trash{
+  background-color: white;
+  box-shadow: 0 2.4rem 3.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+}
+
+.margin-bottom{
+  margin-bottom: 40px;
+}
+
+.Services .content{
+ padding: 10px 20px;
+}
+
+.Services .content h2{
+  font-weight: 900;
+  color: rgb(80, 74, 150);
+}
+.Services .content p{
+  font-weight: 300;
+  color: rgb(15, 4, 142);
+}
+.Services .trash-img{
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: auto;
+}
+.centerized{
+  max-width: 120rem;
+  padding: 0 5.2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
+/******************************************/
+/******************************************/
+/******************************************/
+/* TESTIMONIALS SECTION*/
+
+.testimonials{
+  margin: auto;
+  width: 80%;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+
+.reviews{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  border-radius: 50px;
+  border: solid 1px blue;
+}
+
+.reviews img{
+  margin-bottom: 100px;
+  border-radius: 60%;
+}
+
+.img-header h3{
+  margin: 0;
+  margin-left: 20px;
+  font-size: 26px;
+  color: rgb(3, 3, 189);
+}
+
+.img-header blockquote{
+  margin: 20px;
+  color: rgb(0, 0, 119);
+}
+
+.img-header span{
+  margin-left: 20px;
+}
+
+
+/******************************************/
+/******************************************/
+/******************************************/
+/* CONTACT US SECTION*/
+
+
+.contact-us{
+  margin: auto;
+  width: 70%;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  position: relative;
+  background-color: rgb(251, 243, 243);
+}
+
+.margin-top-contact{
+  margin-top: 40px;
+}
+
+.form{
+  margin-bottom: 20px;
+}
+
+.form input{
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgb(137, 188, 243);
+}
+
+.form .contact-button{
+  font-weight: bold;
+ 
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 1rem  4rem;
+  border-radius: 25px;
+  border: solid blue 1px;
+  background-color: rgb(244, 244, 248);
+}
+.form .contact-button:hover{
+  background-color: rgb(191, 191, 200);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+
+.info p{
+  font-size: 18px;
+}
+
+.info span{
+  margin-left: 15px;
+}
+
+.contact-us-footer{
+  background-color: #002481;
+  padding: 60px;
+  margin: 0;
+  border: 0;
+}
